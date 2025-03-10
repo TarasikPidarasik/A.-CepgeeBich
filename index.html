@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БПЛА - Будущее технологий</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка с видео-фоном -->
+    <header class="header">
+        <video autoplay muted loop class="video-bg">
+            <source src="https://example.com/drone-footage.mp4" type="video/mp4">
+        </video>
+        <div class="header-content">
+            <h1>Беспилотные летательные аппараты</h1>
+            <p>Инновационные решения для современного мира</p>
+        </div>
+    </header>
+
+    <!-- Навигация -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#applications">Применение</a></li>
+            <li><a href="#advantages">Преимущества</a></li>
+            <li><a href="#statistics">Статистика</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Секция применения -->
+        <section id="applications" class="section">
+            <h2 class="section-title">Сферы применения БПЛА</h2>
+            <div class="grid-container">
+                <!-- Карточки с применениями -->
+                <div class="card">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Сельское хозяйство</h3>
+                    <ul>
+                        <li>Мониторинг урожая</li>
+                        <li>Точечное внесение удобрений</li>
+                        <li>Картографирование полей</li>
+                    </ul>
+                </div>
+                <!-- Еще 5 аналогичных карточек для других сфер -->
+            </div>
+        </section>
+
+        <!-- Аккордеон с дополнительной информацией -->
+        <section class="accordion-section">
+            <button class="accordion">История развития БПЛА</button>
+            <div class="panel">
+                <p>Первые прототипы БПЛА появились в 1910-х годах... [подробный текст]</p>
+            </div>
+            <!-- Еще несколько аккордеон-элементов -->
+        </section>
+
+        <!-- Слайдер с примерами -->
+        <div class="slider">
+            <div class="slide active">
+                <img src="drone1.jpg" alt="Пример использования">
+                <div class="slide-text">Доставка медицинских грузов</div>
+            </div>
+            <!-- Еще слайды -->
+        </div>
+    </main>
+
+    <!-- Подвал -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="contact-form">
+                <h3>Свяжитесь с нами</h3>
+                <form>
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Сообщение"></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="social-links">
+                <!-- Иконки соцсетей -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
